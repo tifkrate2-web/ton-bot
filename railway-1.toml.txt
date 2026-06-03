@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python ton_price_bot.py"
+restartPolicyType = "always"
